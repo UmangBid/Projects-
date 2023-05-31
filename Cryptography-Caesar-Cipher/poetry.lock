@@ -1,0 +1,21 @@
+[[package]]
+name = "art"
+version = "5.3"
+description = "ASCII Art Library For Python"
+category = "main"
+optional = false
+python-versions = ">=2.7"
+
+[package.extras]
+dev = ["coverage (>=4.1)", "codecov (>=2.0.15)", "vulture (>=1.0)", "bandit (>=1.5.1)", "pydocstyle (>=3.0.0)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "782972d9ad7ea1547f7404377310722e783f10ab779197760c4218733eab3047"
+
+[metadata.files]
+art = [
+    {file = "art-5.3-py2.py3-none-any.whl", hash = "sha256:da3d533fa0de602dc821d66d949d39fa6845d3c52f576003a4f4f09c0b9e73c5"},
+    {file = "art-5.3.tar.gz", hash = "sha256:ba0e090ebb2ca58f016fc2d4c38e8fb3d964d068f558b1f223411771a4e1b485"},
+]
